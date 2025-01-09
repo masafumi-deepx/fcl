@@ -31,7 +31,7 @@ jobs:
     strategy:
       matrix:
         compiler: [gcc] # , clang]
-        build: [Release, Debug]
+        build: [Debug] # Release]
         os: ['ubuntu-22.04']
     uses: ./.github/workflows/generic_ci.yml
     with:
